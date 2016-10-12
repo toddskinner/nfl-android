@@ -36,6 +36,25 @@ public class MainActivity extends AppCompatActivity {
         displayForPats(scorePats);
     }
 
+    /**
+     * Adds a extra point (1 point) for the Eagles.
+     */
+
+    public void addXPForEagles(View view)
+    {
+        scoreEagles = scoreEagles + 1;
+        displayForEagles(scoreEagles);
+    }
+
+    /**
+     * Adds a extra point (1 point) for the Patriots.
+     */
+
+    public void addXPForPats(View view)
+    {
+        scorePats = scorePats + 1;
+        displayForPats(scorePats);
+    }
 
     /**
      * Adds a field goal (3 points) for the Eagles.
@@ -54,26 +73,6 @@ public class MainActivity extends AppCompatActivity {
     public void addFGForPats(View view)
     {
         scorePats = scorePats + 3;
-        displayForPats(scorePats);
-    }
-
-    /**
-     * Adds a extra point (1 point) for the Eagles.
-     */
-
-    public void addXPForEagles(View view)
-    {
-        scoreEagles = scoreEagles + 1;
-        displayForEagles(scoreEagles);
-    }
-
-    /**
-     * Adds a extra point (1 point) for the Patriots.
-     */
-
-    public void addXPForPats(View view)
-    {
-        scorePats = scorePats + 1;
         displayForPats(scorePats);
     }
 

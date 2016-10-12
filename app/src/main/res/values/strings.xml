@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Super Bowl LI</string>
+    <string name="date">Sunday, February 5, 2017</string>
+    <string name="location">NRG Stadium, Houston, Texas</string>
+    <string name="touchdown">Touchdown!</string>
+    <string name="field_goal">Field Goal</string>
+    <string name="extra_point">Extra Point</string>
+    <string name="safety">Safety</string>
+    <string name="reset">Reset</string>
 </resources>
